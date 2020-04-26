@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-cont{
+    background-image: url('./img/fon.jpg');
+    background-position: center;
+    
+    background-repeat: no-repeat;
+
+    height: 600px;
+
+
+    
+}
+.nav-custom {
+    color: white!important;
+}
+
+.title-deskription {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 6%;
+    margin: 7% 0 5% 0;
+    font-weight: 600;
+}
+.title-after-nav {
+    color: white;
+    font-size: 116px;
+    line-height: 93px;
+    font-weight: 800;
+}
+
+.img-righ { width: 500px; }
+
+
+.btn-add-zakaz {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.btn-container {
+    margin-top: 10%;
+    border: 1px white solid;
+    padding: 5px;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item img {
+    width: 25%;
+    height: 12rem;
+  }
+  .item  {
+    background: white !important;;
+  }

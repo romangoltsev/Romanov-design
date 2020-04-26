@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- Добавляем стили из CDN -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+<!-- Добавляем тему по умолчанию из CDN -->
+
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+<!-----END OWL--->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <div class="custom-cont">
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <a class="navbar-brand" href="#">
+                <img src="./img/111.png" width="50" height="50" class="d-inline-block align-top" alt="logo">
+            
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link nav-custom" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-custom" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-custom" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-custom" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="container content-wrapper">
+            <div class="row">
+                <div class="col-6 left-block">
+                    <p class="title-deskription">
+                        создаем то, что другим не под силу
+                    </p>
+                    <h1 class="title-after-nav">
+                        Romanov<br>
+                        Design
+                    </h1>
+                    
+                    <div class="btn-container">
+                        <a class="btn-add-zakaz" href="#" rel="nofollow">Сделать заказ</a>
+                    </div>
+                  
+                </div>
+    
+    
+    
+                <div class="col-6 rigt-block">
+                    <img class="img-righ" src="./img/222.png" alt="logo"/>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="main-caroesel owl-carousel">
+                <section id="demos">
+                  <div class="row">
+                    <div class="home-demo">
+                     
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <img src="./img/carousel/top1.jpg"/>
+                        </div>
+                        <div class="item">
+                          <img src="./img/carousel/top2.jpg"/>
+                        </div>
+                        <div class="item">
+                          <img src="./img/carousel/top3.jpg"/>
+                        </div>
+                        <div class="item">
+                          <img src="./img/carousel/top4.jpg"/>
+                        </div>
+                        <div class="item">
+                          <img src="./img/carousel/top5.jpg"/>
+                        </div>
+                       
+                      </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+  <script> 
+  
+  $(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    center: true,
+                items: 2,
+                nav : true,
+                autoplay : true,
+                loop: true,
+                margin: 10,
+                responsive: {
+                  600: {
+                    items: 4
+                  }
+                }
+  });
+});
+
+  
+  </script>  
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   
+<script src="mane.js"> </script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+</body>
+</html>
